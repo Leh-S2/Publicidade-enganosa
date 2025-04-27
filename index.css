@@ -260,3 +260,76 @@ canvas {
     height: auto;
   }
 }
+@media (max-width: 768px) {
+  .title, .title2, .head_subtitle, .padding, .head_subtitle2, .footnote, .title3, .art1 {
+    padding: 0 20px;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  header {
+    font-size: 8vw;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 6vw;
+  }
+
+  .title2 {
+    flex-direction: column;
+    font-size: 6vw;
+  }
+
+  .head_subtitle {
+    font-size: 4vw;
+  }
+
+  .section1, .section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  .red_stripe {
+    font-size: 6vw;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .inqueritos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inquerito {
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    padding: 30px;
+    font-size: 5vw;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .grafico {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .subtitle, .center_subtitle, .Text_Explic {
+    font-size: 4vw;
+  }
+
+  #graficosContainer {
+    flex-direction: column;
+  }
+
+  canvas {
+    width: 100%;
+    height: auto;
+  }
+}
