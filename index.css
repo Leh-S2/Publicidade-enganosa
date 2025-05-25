@@ -1,335 +1,188 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #faf9f9;
-  color: #ffffff;
-  text-align: center;
+  background-color: #fff;
+  color: #000;
 }
 
 header {
-  background-color: #C4170C;
-  padding: 2px;
-  font-size: 55px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: rgb(255, 255, 255);
+  background-color: #c4170c;
+  color: white;
+  padding: 15px 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
-alerta {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 10px;
-  font-size: 1.5em;
-  font-weight: bold;
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.alerta {
+  height: 45px;
+  width: 100%;
+  background-color: #c4170c;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
-  padding: 0px 0px;
+  max-width: 900px;
+  margin: 20px auto 80px auto;
+  padding: 0 10px;
 }
 
 .title {
-  color: #C4170C;
-  padding: 0px 260px;
-  text-align: left;
-  margin-top: 50px;
-  margin-bottom: 0px;
+  font-weight: 900;
+  font-size: 2.3rem;
+  margin: 10px 0;
+  text-align: center;
 }
 
 .title2 {
-  display: flex;
-  justify-content: center;
-  color: #C4170C;
-  padding: 0px 260px;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 25px 0 15px 0;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 15px 0;
+}
+
+.title3 {
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 10px 0;
+  text-align: center;
+  font-style: italic;
 }
 
 .head_subtitle {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: #494949;
-  font-weight: lighter;
-  padding: 0px 260px;
-  text-align: left;
-  margin-top: 5px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.5;
 }
 
-.section1 {
-  margin: 40px 0;
-  color: black;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  text-align: center;
-  padding: 10px 100px;
-  margin-top: 15px;
+.head_subtitle2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 15px 10px 20px 10px;
+  line-height: 1.5;
 }
 
 .red_stripe {
-  background-color: #C4170C;
-  font-size: 45px;
-  border-radius: 10px;
-  padding: 10px 100px;
-  margin-right: 58px;
-  margin-left: 58px;
-  color: #fff;
+  background-color: #c4170c;
+  color: white;
+  font-weight: 900;
+  font-size: 1.7rem;
+  padding: 7px 10px;
+  margin-bottom: 10px;
 }
 
-.section {
-  margin: 100px 0;
-  padding: 40px;
-  background-color: #C4170C;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #c4170c;
+  padding-bottom: 20px;
+}
+
+.section1 img {
+  max-width: 250px;
+  max-height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.footnote {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.padding {
+  max-width: 600px;
+}
+
+.subtitle {
+  color: #c4170c;
+  font-weight: 900;
+  font-size: 1.7rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.center_subtitle {
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 25px;
 }
 
 .inqueritos {
   display: flex;
-  justify-content: space-around;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  justify-content: center;
+  gap: 25px;
+  margin: 15px 0 50px 0;
 }
 
 .inquerito {
-  width: 20%;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 110px;
-  font-size: 1.2em;
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: #c4170c;
+  padding: 15px 25px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
 }
 
 .inquerito a {
+  color: white;
   text-decoration: none;
-  color: #C4170C;
-  display: block;
 }
 
-img {
-  width: 755px;
-  height: 325px;
-  padding: 0px 0px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.grafico {
-  width: 100%;
-  height: 50%;
-  background-color: #ffffff;
-  margin: auto;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.frase {
-  font-size: 1.5em;
-  font-style: italic;
-  margin-top: 40px;
-  color: #a31b1b;
-}
-
-.padding {
-  padding: 0px 160px;
-  text-align: left;
-}
-
-.head_subtitle2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: #ffffff;
-  font-weight: lighter;
-  padding: 20px 200px;
-  text-align: left;
-  margin-top: 5px;
-}
-
-.footnote {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  padding: 0px 160px;
-  color: #636363;
-  font-weight: lighter;
-  text-align: left;
-  margin-top: 5px;
-  margin-left: 50px;
-}
-
-.logo {
-  width: 43px;
-  height: 43px;
-  text-align: left;
-}
-
-.subtitle {
-  color: #333;
-  font-weight: bold;
-  font-size: 24px;
-  margin-top: 60px;
-  margin-bottom: 10px;
-}
-
-.center_subtitle {
-  font-family: Arial, Helvetica, sans-serif;
-  font-stretch: expanded;
-  margin-top: 10px;
-  margin-bottom: 40px;
-  color: #333;
-  text-align: justify;
-  line-height: 1.5;
-  font-size: 18px;
-  font-weight: lighter;
-}
-
-#graficosContainer {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-canvas {
-  max-width: 500px;
-  width: 500px;
-  height: 100px;
-}
-
-.Text_Explic {
-  font-family: Arial, Helvetica, sans-serif;
-  font-stretch: expanded;
-  margin-top: 10px;
-  margin-bottom: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
-  color: #333;
-  text-align: justify;
-  line-height: 1.5;
-  font-size: 18px;
-  font-weight: lighter;
-}
-
-.title3 {
-  color: #000000;
-  padding: 0px 200px;
-  text-align: left;
-  margin-top: 50px;
-  margin-bottom: 30px;
-  font-size: 30px;
+.inquerito:hover {
+  background-color: #9f120a;
 }
 
 .art1 {
-  margin-left: 200px;
-  margin-right: 200px;
-  font-size: 18px;
-  color: #333;
+  color: #c4170c;
+  font-weight: 900;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 15px 0;
 }
 
-@media (max-width: 768px) {
-  .title, .title2, .head_subtitle, .head_subtitle2, .padding, .footnote, .Text_Explic, .title3, .art1 {
-    padding: 0 20px;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
-  }
-
-  img {
-    width: 90%;
-    height: auto;
-  }
-
-  .inqueritos {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .inquerito {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-
-  #graficosContainer {
-    flex-direction: column;
-  }
-
-  canvas {
-    width: 90%;
-    height: auto;
-  }
+.Text_Explic {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0 10px 20px 10px;
+  text-align: justify;
 }
-@media (max-width: 768px) {
-  .title, .title2, .head_subtitle, .padding, .head_subtitle2, .footnote, .title3, .art1 {
-    padding: 0 20px;
-    text-align: left;
-    margin-top: 20px;
-  }
 
-  header {
-    font-size: 8vw;
-    padding: 10px;
-  }
-
-  .title {
-    font-size: 6vw;
-  }
-
-  .title2 {
-    flex-direction: column;
-    font-size: 6vw;
-  }
-
-  .head_subtitle {
-    font-size: 4vw;
-  }
-
-  .section1, .section {
-    padding: 20px;
-    margin: 20px 0;
-  }
-
-  .red_stripe {
-    font-size: 6vw;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .inqueritos {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .inquerito {
-    width: 80%;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    padding: 30px;
-    font-size: 5vw;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
-  }
-
-  .grafico {
-    width: 90%;
-    margin: 20px auto;
-  }
-
-  .subtitle, .center_subtitle, .Text_Explic {
-    font-size: 4vw;
-  }
-
-  #graficosContainer {
-    flex-direction: column;
-  }
-
-  canvas {
-    width: 100%;
-    height: auto;
-  }
+#graficoCanvas, .graficoCanvas {
+  max-width: 500px;
+  max-height: 280px;
+  margin: 20px auto;
+  display: block;
+  background-color: #fff;
+  border: 2px solid #c4170c;
+  border-radius: 10px;
 }
