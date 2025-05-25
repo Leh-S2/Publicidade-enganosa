@@ -231,7 +231,7 @@ canvas {
 }
 
 @media (max-width: 768px) {
-  .title, .title2, .head_subtitle, .head_subtitle2, .padding, .footnote, .Text_Explic, .title3, .art1 {
+  .title, .title2, .head_subtitle, .head_subtitle2, .padding, .footnote, .Text_Explic, .title3, .art1, .subtitle {
     padding: 0 20px;
     margin-left: 0;
     margin-right: 0;
