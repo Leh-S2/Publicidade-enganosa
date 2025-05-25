@@ -172,7 +172,7 @@ img {
   font-size: 24px;
   margin-top: 60px;
   margin-bottom: 10px;
-  text-align: justify;
+  text-align: start;
 }
 
 .center_subtitle {
@@ -220,6 +220,7 @@ canvas {
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 30px;
+  text-align: start;
 }
 
 .art1 {
