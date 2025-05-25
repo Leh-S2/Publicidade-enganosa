@@ -166,7 +166,7 @@ img {
   text-align: left;
 }
 
-.subtitle {
+.subtitle, .secao {
   color: #333;
   font-weight: bold;
   font-size: 24px;
