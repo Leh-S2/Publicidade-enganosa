@@ -333,9 +333,3 @@ canvas {
     height: auto;
   }
 }
-
-  display: block;
-  background-color: #fff;
-  border: 2px solid #c4170c;
-  border-radius: 10px;
-}
